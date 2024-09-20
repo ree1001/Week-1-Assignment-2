@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body{
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.container{
+    width:800px;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 20px;
+}
+.header img{
+    margin-right: 10px;
+}
+.header-info{
+    flex-grow: 1;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 18px;
+    color: #4a90e2;
+    margin-bottom: 5px;
+}
+
+.contact-info{
+    line-height: 1px;
+}
+.contact-info span{
+    display: block;
+    margin-bottom:5px;
+    font-size: 16px;
+    padding: 0px;
+}
+
+.contact-info i{
+    color: #4a90e2;
+    margin-right: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.profile,.skills{
+    width: 48%;
+}
+
+h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+    /*border-bottom: 2px solid #e6e6e6;*/
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.section-title h2 {
+    margin: 5px;
+    padding-right: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.para{
+    text-align: justify;
+    margin: 0px;
+
+}
+.section-title hr {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: grey;
+}
+.skills ul {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.skills ul li{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.skills ul li i{
+    margin-right: 8px;
+    color: #4a90e2;
+}
+
+.edu-item,.emp-item{
+    margin-bottom: 15px;
+}
+
+.edu-header,.emp-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.edu-header span:first-child,.emp-header span:first-child {
+    width: 30%; 
+    color: #4a90e2;
+    text-align: left; 
+    padding: 0px;
+}
+.edu-header span:last-child,.emp-header span:last-child{
+    width: 70%; 
+    color: black;
+    text-align: left;
+  }
+  .edu-degree p,.emp-degree p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+    padding-left: 30%; 
+  }
+       
